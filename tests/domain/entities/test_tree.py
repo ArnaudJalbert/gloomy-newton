@@ -1,9 +1,9 @@
 import unittest
 from datetime import datetime
-from src.domain.entities import Tree, Species, District, Street, Coordinates
-from src.domain.value_objects import Orientation, TerrainLocation
+from gloomy_newton.domain.entities import Tree, Species, District, Street, Coordinates
+from gloomy_newton.domain.value_objects import Orientation, TerrainLocation
 
-ID: int = 1
+ID: str = "R-123"
 ACRONYM: str = "ABSI"
 LATIN_NAME: str = "Abies balsamea"
 FRENCH_NAME: str = "Sapin baumier"
@@ -48,7 +48,7 @@ class TestTree(unittest.TestCase):
             district=self.district,
             street=self.street,
             coordinates=self.coordinates,
-            terrain_location=TERRAIN_LOCATION,
+            terrain_location=TERRAIN_LOCATION.PARK.value,
             in_street=IN_STREET,
             diameter=DIAMETER,
             update_date=datetime.now(),
@@ -64,7 +64,7 @@ class TestTree(unittest.TestCase):
         self.assertEqual(self.tree.district, self.district)
         self.assertEqual(self.tree.street, self.street)
         self.assertEqual(self.tree.coordinates, self.coordinates)
-        self.assertEqual(self.tree.terrain_location, TERRAIN_LOCATION)
+        self.assertEqual(self.tree.terrain_location, TERRAIN_LOCATION.PARK.value)
         self.assertTrue(self.tree.in_street)
         self.assertEqual(self.tree.diameter, DIAMETER)
         self.assertIsInstance(self.tree.update_date, datetime)

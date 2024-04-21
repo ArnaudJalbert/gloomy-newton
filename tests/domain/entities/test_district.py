@@ -1,5 +1,5 @@
 import unittest
-from src.domain.entities import District
+from gloomy_newton.domain.entities import District
 
 ID: int = 1
 DISTRICT_NAME: str = "Mercier - Hochelaga-Maisonneuve"

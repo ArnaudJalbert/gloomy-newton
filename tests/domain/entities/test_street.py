@@ -1,5 +1,5 @@
 import unittest
-from src.domain.entities import Street, District
+from gloomy_newton.domain.entities import Street, District
 
 STREET_NAME: str = "Ontario"
 DISTRICT_ID: int = 1

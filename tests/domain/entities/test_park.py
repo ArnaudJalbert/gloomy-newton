@@ -1,5 +1,5 @@
 import unittest
-from src.domain.entities import Park
+from gloomy_newton.domain.entities import Park
 
 ID: str = "0035-027"
 NAME: str = "Park Lalancette"

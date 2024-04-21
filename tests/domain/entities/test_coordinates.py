@@ -1,5 +1,5 @@
 import unittest
-from src.domain.entities import Coordinates
+from gloomy_newton.domain.entities import Coordinates
 
 
 LATITUDE: float = 45.5017

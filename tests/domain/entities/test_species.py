@@ -1,5 +1,5 @@
 import unittest
-from src.domain.entities import Species
+from gloomy_newton.domain.entities import Species
 
 ACRONYM: str = "ABSI"
 LATIN_NAME: str = "Abies balsamea"

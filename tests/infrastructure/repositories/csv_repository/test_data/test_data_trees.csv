@@ -1,0 +1,4 @@
+INV_TYPE,EMP_NO,ARROND,ARROND_NOM,Rue,COTE,No_civique,Emplacement,Coord_X,Coord_Y,SIGLE,Essence_latin,Essence_fr,ESSENCE_ANG,DHP,Date_releve,Date_plantation,LOCALISATION,CODE_PARC,NOM_PARC,Longitude,Latitude
+"H",10,1,Ahuntsic - Cartierville,Avenue De Poutrincourt                                      ,E,1234,Parterre Gazonné,287961.73699999996,5043987.31,"QURU","Quercus rubra","Chêne rouge","Red Oak",34,2018-06-27T00:00:00,"2004-06-18T00:00:00","Devant le 12345, à 2 m du début de la façade","0005-000","RAIMBAULT",-73.715596,45.535598
+"R",130304,1,"Ahuntsic - Cartierville",Avenue De Poutrincourt                                      ,"E",11755,"Parterre Gazonné",289607.36100000003,5043800.531,"CEOC","Celtis occidentalis","Micocoulier occidental","Common Hackberry",6,"2017-07-21T00:00:00","2014-09-18T00:00:00","Devant le 11755, à 2 m du début de la façade",,,-73.69452,45.533955
+,,,,
