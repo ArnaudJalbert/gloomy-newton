@@ -1,13 +1,14 @@
 import unittest
 import pandas as pd
-from unittest.mock import patch, MagicMock
 
 from gloomy_newton.infrastructure.repositories import CSVTreeRepository
 
 
 class TestCSVTreeRepository(unittest.TestCase):
     def setUp(self) -> None:
-        self.repository = CSVTreeRepository("./test_data/test_data_trees.csv")
+        self.repository = CSVTreeRepository(
+            "./infrastructure/repositories/csv_repository/test_data/test_data_trees.csv"
+        )
 
     def test_get_tree_by_id(self):
         tree = self.repository.get_tree_by_id("H-10")
